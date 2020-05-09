@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginTop="60dp"
+
+
+            >
+            <RelativeLayout
+                android:id="@+id/rl_mess"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp">
+
+
+                <LinearLayout
+                    android:id="@+id/ll_mess"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+
+
+                    >
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:layout_centerInParent="true"
+                            android:src="@mipmap/change_password"
+                            ></ImageView>
+
+
+
+                    </RelativeLayout>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:text="Change Password"
+                        android:gravity="center"
+                        android:fontFamily="@font/lato_bold"
+                        android:textStyle="bold"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="20dp"
+                        android:layout_height="wrap_content"></TextView>
+
+
+
+
+
+                </LinearLayout>
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_gravity="right"
+                    android:src="@mipmap/red_forward"
+                    android:layout_centerInParent="true" android:layout_alignParentRight="true"
+                    ></ImageView>
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_mess1"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp">
+
+
+                <LinearLayout
+                    android:id="@+id/ll_mess1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+
+
+                    >
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:layout_centerInParent="true"
+                            android:src="@mipmap/language"
+                            ></ImageView>
+
+
+
+                    </RelativeLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="20dp"
+                        android:gravity="center"
+                        android:fontFamily="@font/lato_bold"
+                        android:text="Language "
+                        android:textStyle="bold"></TextView>
+
+
+
+
+
+                </LinearLayout>
+                <TextView
+                    android:id="@+id/txt_chinese"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:textColor="@color/white"
+                    android:text="中"
+                    android:gravity="center"
+                    android:background="@color/blue"
+                    android:layout_centerInParent="true"
+                    android:layout_alignParentRight="true"
+                    ></TextView>
+                <TextView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:textColor="@color/black"
+                    android:text="EN"
+                    android:gravity="center"
+                   android:layout_marginRight="30dp"
+                    android:layout_centerInParent="true"
+                    android:layout_alignParentRight="true"
+                    ></TextView>
+
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/rl_mess2"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp">
+
+
+                <LinearLayout
+                    android:id="@+id/ll_mess2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+
+
+                    >
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:layout_centerInParent="true"
+                            android:src="@mipmap/iocn_push"
+                            ></ImageView>
+
+
+
+                    </RelativeLayout>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:text="Push Notifications"
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/lato_bold"
+                        android:layout_marginLeft="20dp"
+                        android:layout_height="wrap_content"></TextView>
+
+
+
+
+
+                </LinearLayout>
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_gravity="right"
+                    android:src="@mipmap/red_forward"
+                    android:layout_marginLeft="10dp"
+                    android:layout_centerInParent="true"
+                    android:layout_alignParentRight="true"
+                    ></ImageView>
+
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/rl_mess3"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="30dp">
+
+
+                <LinearLayout
+                    android:id="@+id/ll_mess3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+
+
+                    >
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:layout_centerInParent="true"
+                            android:src="@mipmap/term_condition"
+                            ></ImageView>
+
+
+
+                    </RelativeLayout>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:text="Terms &amp; Conditions"
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/lato_bold"
+                        android:layout_marginLeft="20dp"
+                        android:layout_height="wrap_content"></TextView>
+
+
+
+
+
+                </LinearLayout>
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_gravity="right"
+                    android:src="@mipmap/red_forward"
+                    android:layout_marginLeft="10dp"
+                    android:layout_centerInParent="true"
+                    android:layout_alignParentRight="true"
+                    ></ImageView>
+
+
+            </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_logout"
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="30dp"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/red"
+            android:textSize="20dp"
+            android:fontFamily="@font/lato_bold"
+            android:text="Log Out"></TextView>
+    </RelativeLayout>
+
+        </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:id="@+id/rl_teacher"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:orientation="horizontal"
+             android:background="@color/white"
+        android:layout_marginTop="20dp"
+        android:visibility="gone"
+
+        android:layout_below="@+id/rl_nmae"
+        >
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:scrollbars="none"
+            android:background="@color/white"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2020"
+
+                    android:paddingRight="20dp"
+                    android:id="@+id/txt_one"
+                    android:layout_gravity="center"
+                    android:textColor="@color/red"
+                    >
+
+                </TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2019"
+                    android:id="@+id/txt_two"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+
+                    android:textColor="@color/dark_grey"
+                    android:layout_weight="1">
+
+                </TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2018"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+
+                    android:id="@+id/txt_three"
+                    android:textColor="@color/dark_grey"
+
+                    >
+
+                </TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2017"
+                    android:id="@+id/txt_four"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+
+                    android:textColor="@color/dark_grey"
+
+                    >
+
+                </TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2016"
+                    android:id="@+id/txt_five"
+                    android:textColor="@color/dark_grey"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+
+                    android:layout_weight="1">
+
+                </TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2015"
+                    android:id="@+id/txt_six"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+
+                    android:textColor="@color/dark_grey"
+
+                    >
+
+                </TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2014"
+                    android:id="@+id/txt_seven"
+                    android:textColor="@color/dark_grey"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+
+                    android:layout_weight="1">
+
+                </TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2014"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+
+                    android:id="@+id/txt_seven1"
+                    android:textColor="@color/dark_grey"
+
+                    >
+
+                </TextView>
+
+            </LinearLayout>
+
+        </HorizontalScrollView>
+
+
+    </LinearLayout>
+<View
+    android:id="@+id/view1"
+    android:layout_width="match_parent"
+    android:layout_height="1dp"
+    android:layout_marginTop="3dp"
+    android:visibility="gone"
+    android:background="@color/ver_light_grey"
+    android:layout_below="@+id/rl_teacher"></View>
+
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:id="@+id/app_layout_publication"
+        android:layout_height="30dp"
+         android:gravity="left"
+        android:layout_below="@+id/view1"
+        android:background="@color/white"
+        >
+
+        <com.google.android.material.tabs.TabLayout
+            android:id="@+id/tab_layout_publication"
+
+           android:layout_gravity="left"
+            app:tabBackground="@color/white"
+            app:tabTextAppearance="@style/TextAppearance.AppCompat.Caption"            app:tabIndicatorColor="@color/red"
+            android:layout_width="match_parent"
+            app:tabTextColor="@color/black"
+            android:background="@android:color/transparent"
+
+
+            android:layout_height="wrap_content">
+
+        </com.google.android.material.tabs.TabLayout>
+
+    </com.google.android.material.appbar.AppBarLayout>
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/view_pager_publication"
+        android:layout_below="@+id/app_layout"
+        android:layout_width="match_parent"
+        android:layout_marginTop="50dp"
+        android:layout_height="wrap_content"></androidx.viewpager.widget.ViewPager>
+
+
+
+</RelativeLayout>

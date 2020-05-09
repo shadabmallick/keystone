@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/htab_maincontent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/htab_appbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:fitsSystemWindows="true"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+        <com.google.android.material.appbar.CollapsingToolbarLayout
+            android:id="@+id/htab_collapse_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="306dp"
+            android:fitsSystemWindows="true"
+            app:contentScrim="@color/white"
+            app:layout_scrollFlags="scroll|exitUntilCollapsed|snap"
+            app:titleEnabled="false">
+
+            <LinearLayout
+                android:id="@+id/ll_main"
+                android:layout_width="match_parent"
+                 android:layout_marginTop="50dp"
+
+                android:layout_height="220dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_gravity="center"
+                    android:gravity="left"
+                    android:layout_marginLeft="20dp">
+                    <TextView
+                        android:id="@+id/txt_name"
+                        android:layout_width="120dp"
+                        android:layout_marginTop="10dp"
+                        android:text="Malcolm Mckenzie"
+                        android:gravity="left"
+                        android:fontFamily="@font/lato_regular"
+                        android:layout_gravity="center"
+                        android:textSize="24dp"
+                        android:layout_height="wrap_content">
+
+                    </TextView>
+                    <TextView
+                        android:id="@+id/txt_school"
+                        android:layout_width="120dp"
+                        android:gravity="left"
+                        android:textSize="13dp"
+                        android:fontFamily="@font/lato_regular"
+                        android:layout_marginTop="10dp"
+                        android:text="Head of School"
+                        android:layout_height="wrap_content">
+
+                    </TextView>
+
+
+
+                </LinearLayout>
+
+
+
+                <RelativeLayout
+                    android:id="@+id/rl_pic"
+                    android:layout_width="match_parent"
+                    android:layout_gravity="center"
+                    android:gravity="right"
+
+                    android:layout_marginRight="20dp"
+                    android:layout_height="wrap_content"
+                    >
+
+                    <com.mikhaellopez.circularimageview.CircularImageView
+                        android:id="@+id/img_profile"
+                        android:layout_width="@dimen/toolbar_profile_width"
+                        android:layout_height="@dimen/toolbar_profile_width"
+                        android:layout_marginTop="@dimen/activity_padding"
+                        android:layout_marginBottom="@dimen/activity_padding"
+                        android:scaleType="centerCrop"
+                        android:src="@mipmap/hos_sample"
+                        app:civ_shadow_radius="5"
+
+                        app:civ_border_color="@android:color/white"
+                        app:civ_border_width="2dp" />
+
+                </RelativeLayout>
+
+
+            </LinearLayout>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:alpha="0.3"
+                android:background="@android:color/black"
+                android:fitsSystemWindows="true"/>
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/htab_toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:layout_gravity="top"
+                android:layout_marginBottom="48dp"
+                app:layout_collapseMode="pin"
+                app:popupTheme="@style/ThemeOverlay.AppCompat.Light"/>
+
+            <com.google.android.material.tabs.TabLayout
+                android:id="@+id/htab_tabs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_marginTop="20dp"
+                app:tabIndicatorColor="@android:color/white"
+                app:tabSelectedTextColor="@android:color/white"
+                app:tabTextColor="@android:color/white"/>
+
+        </com.google.android.material.appbar.CollapsingToolbarLayout>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/htab_viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"/>
+
+</RelativeLayout>

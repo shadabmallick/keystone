@@ -1,0 +1,87 @@
+<resources>
+    <string name="app_name">KeyStone</string>
+    <string name="loading">Loading</string>
+    <string name="password">Password?</string>
+    <string name="passwordtext">Password</string>
+    <string name="newpass">New Password</string>
+    <string name="current_pass">Current Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="confirm_new_password">Confirm New Password</string>
+    <string name="login">LOGIN</string>
+    <string name="save">SAVE</string>
+    <string name="username">User Name</string>
+    <string name="change_pass">Change Password</string>
+    <string name="otp">OTP</string>
+    <string name="email">Email ID</string>
+    <string name="forget">Forgot</string>
+    <string name="new_toport">New to Keystone?</string>
+    <string name="register">Please Register</string>
+    <string name="pageregister">REGISTER</string>
+    <string name="news">NEWS</string>
+    <string name="profile">MY PROFILE</string>
+    <string name="settings">SETTINGS</string>
+    <string name="event">EVENTS</string>
+    <string name="message">MESSAGES</string>
+    <string name="key">KEYTONE</string>
+    <string name="submit">SUBMIT</string>
+    <string name="register_now">Register\nNow</string>
+    <string name="string1">Explore Learning Outdoor,Bail</string>
+    <string name="string2">Explore Learning Outdoor,Bail</string>
+    <string name="string3">Explore Learning Outdoor,Bail</string>
+    <string name="terms">Please Register</string>
+    <string name="terms1">Follow Keystone\n on WeChat</string>
+    <string name="terms3">Lorem Ipsum is simply dummy text of the printing and
+        typesetting industry. Lorem Ipsum has been the industry\'s
+        standard dummy text ever since the 1500s, when an
+        unknown printer took a galley of type and scrambled
+        it to make a type specimen book. It has survived not
+        only five centuries, but also the leap into electronic
+        typesetting, remaining essentially unchanged.
+        It was popularised in the 1960s with the release of
+        Letraset sheets containing Lorem Ipsum passages,
+        and more recently with desktop publishing software
+        like Aldus PageMaker including versions of Lorem Ipsum.\n\nIt
+        is a long established fact that a reader will be distracted by
+        the readable content of a page when looking at its layout. The point of using</string>
+    <string name="terms2">It is a long established fact that a reader will be\n distracted by the readable content of a page when</string>
+
+    <string name="pl_login">Please Login</string>
+    <string name="aqi1">Anya Cao\n\nSchool Nurse</string>
+    <string name="keytone_academy">Keystone Academy</string>
+    <string name="hos_text">Last Friday I wrote about being oneself.There is so much more,of course
+    ,that could be said about this topic.I want to add just one thought now.FOr three night at the end of last week audience in our Performing Arts Center were spellbound by a remarkable theater performance scripted and workshopped by students.Xiansheng was dedicated to,and commemorated,the woman </string>
+    <string name="hos">Malcolm McKenzie is the Founding head of School of Keystone Academy.He grew up
+    in Cape Town,South Africa,and studied at the Universities of Cape Town,Oxford,and Lancaster</string>
+    <string name="address">No.11 An Fu Street,Hou Sha,Shunyi District,Beijing,\nP.R. China 101318</string>
+    <string name="aqi">AQI (PM2.5) show 102 at 7:50 am. watch for
+        symptoms and take actions as needed when outside active.Students with asthma should
+        follow their asthama action plan and keep their quick-relief medicine handly.Have a nice day!</string>
+
+
+    <string name="material_calendar_monday">Mon</string>
+    <string name="material_calendar_tuesday">Tue</string>
+    <string name="material_calendar_wednesday">Wed</string>
+    <string name="material_calendar_thursday">Thu</string>
+    <string name="material_calendar_friday">Fri</string>
+    <string name="material_calendar_saturday">Sat</string>
+    <string name="material_calendar_sunday">Sun</string>
+
+    <array name="material_calendar_months_array">
+        <item>January</item>
+        <item>February</item>
+        <item>March</item>
+        <item>April</item>
+        <item>May</item>
+        <item>June</item>
+        <item>July</item>
+        <item>August</item>
+        <item>September</item>
+        <item>October</item>
+        <item>November</item>
+        <item>December</item>
+    </array>
+
+    <string name="material_calendar_today_button">Today</string>
+    <string name="material_calendar_positive_button">OK</string>
+    <string name="material_calendar_negative_button">Cancel</string>
+</resources>

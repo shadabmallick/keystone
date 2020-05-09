@@ -1,0 +1,498 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:id="@+id/rl_mess"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp">
+
+
+                <LinearLayout
+                    android:id="@+id/ll_mess"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+
+
+                    >
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:background="@drawable/circle_new"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:layout_width="25dp"
+                            android:layout_height="25dp"
+                            android:layout_centerInParent="true"
+                            android:src="@mipmap/url"
+                            ></ImageView>
+
+
+
+                    </RelativeLayout>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:text="keystoenademy.com"
+                        android:textColor="@color/black"
+                        android:layout_marginLeft="20dp"
+                        android:textSize="12dp"
+                        android:fontFamily="@font/lato_bold"
+                        android:layout_gravity="center"
+                        android:layout_marginRight="20dp"
+                        android:layout_height="wrap_content"></TextView>
+
+
+
+
+
+                </LinearLayout>
+
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:id="@+id/rl_mess1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp">
+
+
+                <LinearLayout
+                    android:id="@+id/ll_mess1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+
+
+                    >
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:background="@drawable/circle_new"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:layout_width="25dp"
+                            android:layout_height="25dp"
+                            android:layout_centerInParent="true"
+                            android:src="@mipmap/mess"
+                            ></ImageView>
+
+
+
+                    </RelativeLayout>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:text="keystoenademy@info.com"
+                        android:layout_marginLeft="20dp"
+                        android:textSize="12dp"
+                        android:textColor="@color/black"
+
+                        android:fontFamily="@font/lato_bold"
+                        android:layout_gravity="center"
+                        android:layout_marginRight="20dp"
+                        android:layout_height="wrap_content"></TextView>
+
+
+
+
+
+                </LinearLayout>
+
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/rl_mess2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp">
+
+
+                <LinearLayout
+                    android:id="@+id/ll_mess2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+
+
+                    >
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:background="@drawable/circle_new"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:layout_width="25dp"
+                            android:layout_height="25dp"
+                            android:layout_centerInParent="true"
+                            android:src="@mipmap/phone"
+                            ></ImageView>
+
+
+
+                    </RelativeLayout>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:text="12345678910"
+                        android:layout_marginLeft="20dp"
+                        android:textSize="12dp"
+                        android:textColor="@color/black"
+
+                        android:fontFamily="@font/lato_bold"
+                        android:layout_gravity="center"
+                        android:layout_marginRight="20dp"
+                        android:layout_height="wrap_content"></TextView>
+
+
+
+
+
+                </LinearLayout>
+
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/rl_mess3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp">
+
+
+                <LinearLayout
+                    android:id="@+id/ll_mess3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+
+
+                    >
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:background="@drawable/circle_new"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:layout_width="25dp"
+                            android:layout_height="25dp"
+                            android:layout_centerInParent="true"
+                            android:src="@mipmap/conn"
+                            ></ImageView>
+
+
+
+                    </RelativeLayout>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:text="@string/address"
+                        android:layout_marginLeft="20dp"
+                        android:textSize="12dp"
+                        android:textColor="@color/black"
+
+                        android:fontFamily="@font/lato_bold"
+                        android:layout_gravity="center"
+                        android:layout_marginRight="20dp"
+                        android:layout_height="wrap_content"></TextView>
+
+
+
+
+
+                </LinearLayout>
+
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/rl_mess4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp">
+
+
+                <LinearLayout
+                    android:id="@+id/ll_mess4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+
+
+                    >
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:background="@drawable/circle_new"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:layout_width="25dp"
+                            android:layout_height="25dp"
+                            android:layout_centerInParent="true"
+                            android:src="@mipmap/linkedin"
+                            ></ImageView>
+
+
+
+                    </RelativeLayout>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:text="linkedin.com"
+                        android:layout_marginLeft="20dp"
+                        android:textSize="12dp"
+                        android:textColor="@color/black"
+
+                        android:fontFamily="@font/lato_bold"
+                        android:layout_gravity="center"
+                        android:layout_marginRight="20dp"
+                        android:layout_height="wrap_content"></TextView>
+
+
+
+
+
+                </LinearLayout>
+
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/rl_mess5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp">
+
+
+                <LinearLayout
+                    android:id="@+id/ll_mess5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+
+
+                    >
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:background="@drawable/circle_new"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:layout_width="25dp"
+                            android:layout_height="25dp"
+                            android:layout_centerInParent="true"
+                            android:src="@mipmap/insta"
+                            ></ImageView>
+
+
+
+                    </RelativeLayout>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:text="instagram.com"
+                        android:layout_marginLeft="20dp"
+                        android:textSize="12dp"
+                        android:textColor="@color/black"
+
+                        android:fontFamily="@font/lato_bold"
+                        android:layout_gravity="center"
+                        android:layout_marginRight="20dp"
+                        android:layout_height="wrap_content"></TextView>
+
+
+
+
+
+                </LinearLayout>
+
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/rl_mess6"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:background="@color/red"
+                android:layout_marginBottom="10dp">
+
+
+                <LinearLayout
+                    android:id="@+id/ll_mess6"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+
+
+                    >
+
+                    <TextView
+                        android:layout_width="150dp"
+                        android:text="@string/terms1"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:textSize="17dp"
+                        android:layout_marginRight="100dp"
+                         android:textColor="@color/white"
+                        android:fontFamily="@font/lato_bold"
+
+
+                        android:layout_height="wrap_content"></TextView>
+
+
+
+
+
+                </LinearLayout>
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_centerInParent="true"
+                    android:padding="10dp"
+                    android:layout_alignParentRight="true"
+                    android:src="@mipmap/qr"
+                    ></ImageView>
+
+
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:text="Contact Form"
+                android:layout_marginLeft="20dp"
+                android:textColor="@color/black"
+                android:layout_marginTop="15dp"
+                android:fontFamily="@font/lato_bold"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"></TextView>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border_new"
+        android:paddingTop="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:paddingBottom="10dp"
+         android:textColorHint="@color/black"
+         android:textSize="13dp"
+        android:layout_marginLeft="20dp"
+        android:paddingLeft="10dp"
+        android:hint="Name*"
+        >
+
+    </EditText>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/border_new"
+                android:hint="Email*"
+                android:paddingLeft="10dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textColorHint="@color/black"
+                android:textSize="13dp">
+
+            </EditText>
+
+            <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border_new"
+        android:paddingTop="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:paddingBottom="10dp"
+         android:textColorHint="@color/black"
+         android:textSize="13dp"
+        android:layout_marginLeft="20dp"
+        android:paddingLeft="10dp"
+        android:hint="Mobile No"
+        >
+
+    </EditText>
+            <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/border_new"
+        android:paddingTop="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:paddingBottom="10dp"
+         android:textColorHint="@color/black"
+         android:textSize="13dp"
+        android:layout_marginLeft="20dp"
+        android:paddingLeft="10dp"
+        android:hint="Message"
+        >
+
+    </EditText>
+            <RelativeLayout
+                android:id="@+id/rl_login"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/submit_blue">
+
+                <TextView
+                    android:id="@+id/tv_login"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/submit"
+                    android:textSize="16dp"
+                    android:textColor="@android:color/white"/>
+
+
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+
+
+
+</RelativeLayout>
